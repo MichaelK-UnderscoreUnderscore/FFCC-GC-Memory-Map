@@ -1,6 +1,9 @@
-8023B87C [4 Byte] - Crystal Chalice Element
+0x8023B87C [4 Byte] - Crystal Chalice Element
 	0x00000001 - Fire
 	0x00000002 - Water
 	0x00000004 - Wind
 	0x00000008 - Earth
 	0x00000010 - Holy
+
+0x8023BC66 [64x 2 Byte] - Items (Single Player)
+	Each Item ID is a 2Byte Value, see "Item IDs" fore reference Images
