@@ -1,0 +1,6 @@
+8023B87C [4 Byte] - Crystal Chalice Element
+	0x00000001 - Fire
+	0x00000002 - Water
+	0x00000004 - Wind
+	0x00000008 - Earth
+	0x00000010 - Holy
