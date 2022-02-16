@@ -31,34 +31,36 @@
 00F1-F8 https://i.imgur.com/9cTVIaN.png
 00F9-00 https://i.imgur.com/r4diVWt.png
 0101-08 https://i.imgur.com/z82INar.png
-0109-10 
+0109-10 https://i.imgur.com/zLPrsz0.png
 0111-18 https://i.imgur.com/kBx1sO8.png
-0119-20 
+0119-20 https://i.imgur.com/WniQItH.png
 0121-28 https://i.imgur.com/sVZ6aRC.png
-0129-30
+0129-30 https://i.imgur.com/zF26A4O.png
 0131-38 https://i.imgur.com/GdZHtB3.png
-0139-40 
+0139-40 https://i.imgur.com/q08c3h0.png
 0141-48 https://i.imgur.com/LiqsdY7.png
-0149-50 
+0149-50 https://i.imgur.com/8urnWzM.png
 0151-58 https://i.imgur.com/vrwK5ae.png
-0159-60 
+0159-60 https://i.imgur.com/AlgvaFf.png
 0161-68 https://i.imgur.com/rMDT1JH.png
-0169-70 
+0169-70 https://i.imgur.com/U5EMxbf.png
 0171-78 https://i.imgur.com/WR8Y6Un.png
-0179-80 
+0179-80 https://i.imgur.com/2V4nNk1.png
 0181-88 https://i.imgur.com/Q727zWp.png
-0189-90 
+0189-90 https://i.imgur.com/et6w8uw.png
 0191-98 https://i.imgur.com/xFg6952.png
-0199-A0 
+0199-A0 https://i.imgur.com/BvLdoNY.png
 01A1-A8 https://i.imgur.com/Lfx6pwc.png
-01A9-B0 
+01A9-B0 https://i.imgur.com/7xTSLhz.png
 01B1-B8 https://i.imgur.com/SsCaDof.png
-01B9-C0 
-01C1-C8 
-01C9-D0 
-01D1-D8 
-01D9-E0 
-01E1-E8 
-01E9-F0 
-01F1-F8 
-01F9-00 
+01B9-C0 https://i.imgur.com/pMeko8k.png
+01C1-C8 https://i.imgur.com/7Pur69C.png
+01C9-D0 https://i.imgur.com/10rziI4.png
+01D1-D8 https://i.imgur.com/UFOkrjH.png
+01D9-E0 https://i.imgur.com/GU8jQYg.png
+01E1-E8 https://i.imgur.com/QgHwOAE.png
+01E9-F0 https://i.imgur.com/OAi2cNI.png
+01F1-F8 https://i.imgur.com/xHpggir.png
+01F9-00 https://i.imgur.com/BkTNigG.png
+0201-08 https://i.imgur.com/PkKZzfD.png
+0209-10 https://i.imgur.com/L99nmyr.png
