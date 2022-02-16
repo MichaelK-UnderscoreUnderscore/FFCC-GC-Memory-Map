@@ -1,3 +1,4 @@
+
 0x8023B87C [4 Byte] - Crystal Chalice Element
 	0x00000001 - Fire
 	0x00000002 - Water
@@ -5,5 +6,32 @@
 	0x00000008 - Earth
 	0x00000010 - Holy
 
+0x8023BBCE [2 Byte] - Strenght (Single Player)
+0x8023BBD0 [2 Byte] - Magic    (Single Player)
+0x8023BBD2 [2 Byte] - Defense  (Single Player)
+
+0x8023BC5C [2 Byte] - Equipment Weapon    (Single Player)
+0x8023BC5E [2 Byte] - Equipment Armor     (Single Player)
+0x8023BC5C [2 Byte] - Equipment Race Side (Single Player)
+0x8023BC5C [2 Byte] - Equipment Accessory (Single Player)
+
+0x8023BC74 [2 Byte] - Number of Items in Inventory (Single Player)
 0x8023BC66 [64x 2 Byte] - Items (Single Player)
-	Each Item ID is a 2Byte Value, see "Item IDs" fore reference Images
+	Each Item ID is a 2Byte Value, see "Item IDs" fore reference Images.
+	1FF looks to be the highest legit Item ID
+
+0x8023BDB8 [6x 2 Byte] - Quick Menu
+	Points to Item Slot in Inventory, starting at 0.
+
+0x8023BF8E [2 Byte] - Memory Count (Single Player)
+
+0x8023BF90 [2 Byte] - Pause Screen Potrait Player Model Position? (Single Player)
+
+0x8023BF9A [2 Byte] - Letter Count (Single Player)
+0x8023BF9C [?x 12 Byte] - Letters [Notation y:x - y = byte, x = bit, beginning at 0.]
+	0:0 Letter Read? 0 No, 1 Yes.
+	0:1 Item Collected? 0 No, 1 Yes.
+	0:2-0:3 ?????
+	0:4-2:6 Letter ID?
+	2:7-3:7 Item ID
+	4:0-11:7 ?????
