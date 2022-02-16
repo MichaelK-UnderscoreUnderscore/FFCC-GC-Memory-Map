@@ -23,6 +23,7 @@
 0x8023BDB8 [6x 2 Byte] - Quick Menu
 	Points to Item Slot in Inventory, starting at 0.
 
+0x8023BF7A [? Byte] - Name in ASCII, 0x00 Terminated. ( https://i.imgur.com/1TmtdGq.png )
 0x8023BF8E [2 Byte] - Memory Count (Single Player)
 
 0x8023BF90 [2 Byte] - Pause Screen Potrait Player Model Position? (Single Player)
@@ -34,4 +35,4 @@
 	0:2-0:3 ?????
 	0:4-2:6 Letter ID?
 	2:7-3:7 Item ID
-	4:0-11:7 ?????
+	4:0-11:7 ????? Sometimes used, but changing doesn't seem to affect anything
