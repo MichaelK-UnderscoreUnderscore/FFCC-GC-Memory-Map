@@ -6,19 +6,30 @@
 	0x00000008 - Earth
 	0x00000010 - Holy
 
-0x8023BBCE [2 Byte] - Strenght (Single Player)
-0x8023BBD0 [2 Byte] - Magic    (Single Player)
-0x8023BBD2 [2 Byte] - Defense  (Single Player)
+0x8023BB9A [4 Byte] - Game State stuff? 0x00010100 in menu, all 0 in game
+
+0x8023BBCA [2 Byte] - Current Max Health (Single Player) (Gets reset)
+0x8023BBCC [2 Byte] - Current Health (Single Player) (Gets reset to Max Health)
+0x8023BBCE [2 Byte] - Current Strenght (Single Player) (Gets reset)
+0x8023BBD0 [2 Byte] - Current Magic    (Single Player) (Gets reset)
+0x8023BBD2 [2 Byte] - Current Defense  (Single Player) (Gets reset)
+
+0x8023BBEE [2 Byte] - ??? 
+0x8023BBEE [2 Byte] - ??? Timer (Locks out really any action, including opening the menu)
+0x8023BBF0 [2 Byte] - ??? Timer (No Idea)
+0x8023BBF2 [2 Byte] - Poison Timer (Single Player), Counting down by 1 every frame.
 
 0x8023BC5C [2 Byte] - Equipment Weapon    (Single Player)
 0x8023BC5E [2 Byte] - Equipment Armor     (Single Player)
 0x8023BC5C [2 Byte] - Equipment Race Side (Single Player)
 0x8023BC5C [2 Byte] - Equipment Accessory (Single Player)
 
-0x8023BC74 [2 Byte] - Number of Items in Inventory (Single Player)
+0x8023BC65 [1 Byte] - Number of Items in Inventory (Single Player)
 0x8023BC66 [64x 2 Byte] - Items (Single Player)
 	Each Item ID is a 2Byte Value, see "Item IDs" fore reference Images.
 	1FF looks to be the highest legit Item ID
+
+0x8023BCE6 [?x 2 Byte] - Artifacts (Using Item IDs)
 
 0x8023BDB8 [6x 2 Byte] - Quick Menu
 	Points to Item Slot in Inventory, starting at 0.
@@ -29,10 +40,15 @@
 0x8023BF90 [2 Byte] - Pause Screen Potrait Player Model Position? (Single Player)
 
 0x8023BF9A [2 Byte] - Letter Count (Single Player)
-0x8023BF9C [?x 12 Byte] - Letters [Notation y:x - y = byte, x = bit, beginning at 0.]
+0x8023BF9C [73x 12 Byte] - Letters [Notation y:x - y = byte, x = bit, beginning at 0.]
 	0:0 Letter Read? 0 No, 1 Yes.
 	0:1 Item Collected? 0 No, 1 Yes.
 	0:2-0:3 ?????
 	0:4-2:6 Letter ID?
 	2:7-3:7 Item ID
 	4:0-11:7 ????? Sometimes used, but changing doesn't seem to affect anything
+
+0x8023C780 [4 Byte] - Strenght Buff Timer (Single Player)
+
+0x806F6026 [2 Byte] - Cursor Position on Screen (Single Player)
+0x806F6034 [2 Byte] - Menu Scroll Depth (Single Player)
