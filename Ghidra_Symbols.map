@@ -1699,7 +1699,7 @@
   800c047c 0000b8 800c047c  4 FUN_800c047c 	Global
   800c0534 000094 800c0534  4 FUN_800c0534 	Global
   800c05c8 000868 800c05c8  4 FUN_800c05c8 	Global
-  800c0e30 000a10 800c0e30  4 FUN_800c0e30 	Global
+  800c0e30 000a10 800c0e30  4 Load_Save_Data_10 	Global
   800c1840 000030 800c1840  4 FUN_800c1840 	Global
   800c1870 000060 800c1870  4 FUN_800c1870 	Global
   800c18d0 000078 800c18d0  4 FUN_800c18d0 	Global
@@ -4924,6 +4924,8 @@
   8023bfaa 000001 8023bfaa  8 strct.letters_Player.1.Letters[1].Letter ID+2 	Global
   8023bfac 000001 8023bfac  8 strct.letters_Player.1.Letters[1].field_0x4 	Global
   8023c780 000004 8023c780  4 int_Player.1.Timer.Strength 	Global
+  80305ac0 000004 80305ac0  4 param_9? 	Global
+  80305b44 000001 80305b44  1 Chalice_Element:_param9_+_0x84 	Global
   80312d20 000001 80312d20  1 str.cpy_Char.Name.1 	Global
   8034b858 000004 8034b858  4 FLOAT_8034b858 	Global
   8034ba40 000004 8034ba40  4 FLOAT_8034ba40 	Global
