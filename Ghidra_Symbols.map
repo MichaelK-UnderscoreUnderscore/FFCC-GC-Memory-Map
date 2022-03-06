@@ -229,6 +229,9 @@
   80020fec 0000cc 80020fec  4 FUN_80020fec 	Global
   800210b8 000108 800210b8  4 FUN_800210b8 	Global
   800211c0 0005c8 800211c0  4 FUN_800211c0 	Global
+  80021488 000001 80021488  8 lab_Check.to.Pause 	FUN_800211c0
+  800214dc 000001 800214dc  8 lab_Unpause 	FUN_800211c0
+  80021510 000001 80021510  8 lab_end.of.pause 	FUN_800211c0
   80021788 0000b8 80021788  4 FUN_80021788 	Global
   80021840 0000cc 80021840  4 FUN_80021840 	Global
   8002190c 000358 8002190c  4 FUN_8002190c 	Global
@@ -4924,6 +4927,7 @@
   8023bfaa 000001 8023bfaa  8 strct.letters_Player.1.Letters[1].Letter ID+2 	Global
   8023bfac 000001 8023bfac  8 strct.letters_Player.1.Letters[1].field_0x4 	Global
   8023c780 000004 8023c780  4 int_Player.1.Timer.Strength 	Global
+  80260e94 000004 80260e94  4 int_Pause? 	Global
   80305ac0 000004 80305ac0  4 param_9? 	Global
   80305b44 000001 80305b44  1 Chalice_Element:_param9_+_0x84 	Global
   80312d20 000001 80312d20  1 str.cpy_Char.Name.1 	Global
