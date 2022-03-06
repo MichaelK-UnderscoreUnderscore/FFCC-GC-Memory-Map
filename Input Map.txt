@@ -1,0 +1,31 @@
+Only active for a frame:
+0x8025FA48 - A, B, X, Y, Start
+  0x10 = Start
+  0x08 = Y
+  0x04 = X
+  0x02 = B
+  0x01 = A
+(Raw Input at 0x80254A54, checks every other frame, with 0x00 in between?)
+0x8025FA49 - 
+  0x40 = L
+  0x20 = R
+  0x10 = Z
+  0x08 = D^
+  0x04 = Dv
+  0x02 = D>
+  0x01 = D<
+(Raw Input at 0x80254A55, checks every other frame, with 0x00 in between?)
+
+Constant:
+0x8025FA5C = L Analog (Float Representation)
+  (Raw Input at 0x80254A56)
+0x8025FA60 = R Analog (Float Representation)
+  (Raw Input at 0x80254A57)
+0x8025FA66 = L-Stick <> (Float Representation, with some Math for Deadzone and scaling)
+  (Raw Input at 0x80254A58)
+0x8025FA68 = L-Stick ^v (Float Representation, with some Math for Deadzone and scaling)
+  (Raw Input at 0x80254A59)
+0x8025FA6C = C-Stick <> (Float Representation)
+  (Raw Input at 0x80254A5A)
+0x8025FA70 = C-Stick ^v (Float Representation)
+  (Raw Input at 0x80254A5B)
