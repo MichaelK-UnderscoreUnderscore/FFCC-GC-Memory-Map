@@ -29,7 +29,7 @@
 	Each Item ID is a 2Byte Value, see "Item IDs" fore reference Images.
 	1FF looks to be the highest legit Item ID
 
-0x8023BCE6 [?x 2 Byte] - Artifacts (Using Item IDs)
+0x8023BCE6 [73x 2 Byte] - Artifacts (Using Item IDs)
 
 0x8023BDB8 [6x 2 Byte] - Quick Menu
 	Points to Item Slot in Inventory, starting at 0.
@@ -39,7 +39,7 @@
 
 0x8023BF90 [2 Byte] - Pause Screen Potrait Player Model Position? (Single Player)
 
-0x8023BF9A [2 Byte] - Letter Count (Single Player)
+0x8023BF98 [4 Byte] - Letter Count (Single Player)
 0x8023BF9C [73x 12 Byte] - Letters [Notation y:x - y = byte, x = bit, beginning at 0.]
 	0:0 Letter Read? 0 No, 1 Yes.
 	0:1 Item Collected? 0 No, 1 Yes.
@@ -49,6 +49,12 @@
 	4:0-11:7 ????? Sometimes used, but changing doesn't seem to affect anything
 
 0x8023C780 [4 Byte] - Strenght Buff Timer (Single Player)
+
+0x80260E94 [4 Byte] - Enters Pause Menu (though some parts are not set) 
+
+0x80305AC0 [4 Byte] - param_9
+
+0x80305B44 [4 Byte] - Copy of Crystal Chalice Element
 
 0x806F6026 [2 Byte] - Cursor Position on Screen (Single Player)
 0x806F6034 [2 Byte] - Menu Scroll Depth (Single Player)
